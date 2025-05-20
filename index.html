@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="text-3xl text-red-500">Cookies and Session Storage</h1>
+
+    <!-- Cookies Storage -->
+     <h2 class="text-2xl text-green-500">Cookies Storage</h2>
+    <div class="mb-4">
+        <input type="text" id="set-cookie-key" placeholder="Enter cookie key"
+            class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none mb-2">
+        <input type="text" id="set-cookie-value" placeholder="Enter cookie value"
+            class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none mb-2">
+        <button id="set-cookie" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+            Set Cookie
+        </button>
+    </div>
+
+    <div>
+        <input type="text" name="" id="cookie-key" placeholder="Enter a key to get cookies value"
+        class="border-2 border-gray-300 bg-white h-10 w-1/2 px-5 rounded-lg text-sm focus:outline-none">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" id="get-cookie">get
+        Cookie</button>
+    </div>
+
+     <!-- Session Storage Section -->
+<h2 class="text-2xl text-green-600 mt-6 mb-2">Session Storage</h2>
+
+<div class="mb-4">
+  <input type="text" id="set-session-key" placeholder="Enter session key"
+    class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none mb-2">
+  <input type="text" id="set-session-value" placeholder="Enter session value"
+    class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none mb-2">
+  <button id="set-session"
+    class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">
+    Set Session
+  </button>
+</div>
+
+<div class="mb-4">
+  <input type="text" id="get-session-key" placeholder="Enter session key"
+    class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none mb-2">
+  <button id="get-session"
+    class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">
+    Get Session
+  </button>
+  
+  <li id="cookie-list" class="display: flex flex-col">
+    </li>
+  <li id="session-list" class="display: flex flex-col">
+  </li>
+</div>
+
+
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
