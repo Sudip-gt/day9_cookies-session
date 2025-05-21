@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "start": "vite",
     "serve": "vite preview",
-    "watch": "vite"
+    "watch": "vite",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
